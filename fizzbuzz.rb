@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 require_relative './spec_helper.rb'
-require_relative './specfizzbuzz_spec.rb'
+require_relative './fizzbuzz_spec.rb'
 
 def fizzbuzz (num = )
   if num % 3 == 0 
