@@ -3,7 +3,7 @@
 
 require_relative './spec_helper.rb'
 
-def fizzbuzz (num)
+def fizzbuzz (num = )
   if num % 3 == 0 
      "Fizz"
   elsif num % 5 == 0 
