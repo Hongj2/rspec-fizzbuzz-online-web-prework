@@ -3,7 +3,7 @@
 
 def fizzbuzz (num)
  if num % 15 == 0 
-    return "Fizzbuzz"
+    return "FizzBuzz"
   elsif num % 5 == 0 
     return "Buzz"
   elsif num % 3 == 0 
