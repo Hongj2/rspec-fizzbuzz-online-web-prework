@@ -5,12 +5,12 @@ require_relative './spec_helper.rb'
 
 def fizzbuzz (num)
   if num % 3 == 0 
-    return "Fizz"
+     "Fizz"
   elsif num % 5 == 0 
-    return "Buzz"
+     "Buzz"
   elsif num % 15  == 0
-    return "Fizzbuzz"
+     "Fizzbuzz"
   else
-    return "nil"
+     "nil"
   end
 end
