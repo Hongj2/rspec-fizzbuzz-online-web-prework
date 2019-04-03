@@ -2,12 +2,12 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz (num)
- if num % 3 == 0 
-   return "Fizz"
+ if num % 15 == 0 
+    return "Fizzbuzz"
   elsif num % 5 == 0 
     return "Buzz"
-  elsif num % 15 == 0 
-    return "Fizzbuzz"
+  elsif num % 3 == 0 
+   return "Fizz"
   else 
     nil
 end
